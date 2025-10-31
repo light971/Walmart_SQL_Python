@@ -1,0 +1,92 @@
+{
+    "name": "Walmart Corporate Theme",
+    "dataColors": [
+      "#007DC4",
+      "#FFC220",
+      "#34A853",
+      "#D50000",
+      "#B0C4DE",
+      "#00395C",
+      "#FFEA90",
+      "#6AA3D7"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#212121",
+    "tableAccent": "#007DC4",
+    "visualStyles": {
+      "*": {
+        "*": {
+          "title": [
+            {
+              "fontColor": { "solid": { "color": "#007DC4" } },
+              "fontSize": 14,
+              "fontFamily": "Segoe UI Semibold"
+            }
+          ],
+          "labels": [
+            {
+              "color": { "solid": { "color": "#212121" } },
+              "fontFamily": "Segoe UI",
+              "fontSize": 11
+            }
+          ],
+          "categoryAxis": [
+            {
+              "labelColor": { "solid": { "color": "#4A4A4A" } },
+              "fontFamily": "Segoe UI",
+              "fontSize": 10
+            }
+          ],
+          "valueAxis": [
+            {
+              "labelColor": { "solid": { "color": "#4A4A4A" } },
+              "fontFamily": "Segoe UI",
+              "fontSize": 10
+            }
+          ]
+        }
+      },
+      "card": {
+        "*": {
+          "labels": [
+            {
+              "color": { "solid": { "color": "#007DC4" } },
+              "fontFamily": "Segoe UI Semibold",
+              "fontSize": 11
+            }
+          ],
+          "values": [
+            {
+              "color": { "solid": { "color": "#212121" } },
+              "fontFamily": "Segoe UI",
+              "fontSize": 18
+            }
+          ]
+        }
+      },
+      "table": {
+        "*": {
+          "grid": [
+            {
+              "outlineColor": { "solid": { "color": "#E0E0E0" } }
+            }
+          ],
+          "header": [
+            {
+              "fontColor": { "solid": { "color": "#FFFFFF" } },
+              "backColor": { "solid": { "color": "#007DC4" } },
+              "fontFamily": "Segoe UI Semibold",
+              "fontSize": 12
+            }
+          ],
+          "values": [
+            {
+              "fontColorPrimary": { "solid": { "color": "#212121" } },
+              "fontFamily": "Segoe UI",
+              "fontSize": 11
+            }
+          ]
+        }
+      }
+    }
+  }
